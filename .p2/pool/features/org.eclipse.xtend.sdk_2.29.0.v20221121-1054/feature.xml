@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.xtend.sdk"
+      label="%featureName"
+      version="2.29.0.v20221121-1054"
+      provider-name="%providerName"
+      plugin="org.eclipse.xtend.ide">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      Copyright (c) 2011, 2018 itemis AG (http://www.itemis.eu) and others.
+
+This program and the accompanying materials 
+are made available under the terms of the Eclipse Public License 2.0 
+which is available at http://www.eclipse.org/legal/epl-2.0.
+
+SPDX-License-Identifier: EPL-2.0
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.xtext.ui" version="2.29.0" match="equivalent"/>
+      <import feature="org.eclipse.xtext.xbase.lib" version="2.29.0" match="equivalent"/>
+      <import plugin="org.eclipse.xtend.lib" version="2.29.0" match="equivalent"/>
+      <import plugin="org.eclipse.xtend.lib.macro" version="2.29.0" match="equivalent"/>
+      <import plugin="org.eclipse.xtend.lib.source" version="2.29.0" match="equivalent"/>
+      <import plugin="org.eclipse.xtend.lib.macro.source" version="2.29.0" match="equivalent"/>
+      <import plugin="com.google.guava" version="30.1.0" match="compatible"/>
+      <import plugin="io.github.classgraph" version="4.8.149" match="compatible"/>
+      <import plugin="org.apache.log4j" version="1.2.19" match="equivalent"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.xtend.core"
+         download-size="1324"
+         install-size="3659"
+         version="2.29.0.v20221121-1034"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtend.ide.common"
+         download-size="571"
+         install-size="2496"
+         version="2.29.0.v20221121-1034"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtend.ide"
+         download-size="574"
+         install-size="1285"
+         version="2.29.0.v20221121-1034"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtend.examples"
+         download-size="209"
+         install-size="234"
+         version="2.29.0.v20221121-1034"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtend.doc"
+         download-size="486"
+         install-size="609"
+         version="2.29.0.v20221121-1034"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtend.m2e"
+         download-size="8"
+         install-size="15"
+         version="2.29.0.v20221121-1034"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtend.standalone"
+         download-size="2"
+         install-size="2"
+         version="2.29.0.v20221121-1034"
+         unpack="false"/>
+   <plugin
+         id="org.eclipse.xtend.core.source"
+         download-size="1178"
+         install-size="5943"
+         version="2.29.0.v20221121-1034"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtend.ide.common.source"
+         download-size="268"
+         install-size="4222"
+         version="2.29.0.v20221121-1034"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtend.ide.source"
+         download-size="418"
+         install-size="1126"
+         version="2.29.0.v20221121-1034"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtend.m2e.source"
+         download-size="4"
+         install-size="10"
+         version="2.29.0.v20221121-1034"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtend.standalone.source"
+         download-size="1"
+         install-size="1"
+         version="2.29.0.v20221121-1034"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.junit4"
+         download-size="223"
+         install-size="490"
+         version="2.29.0.v20221121-0943"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.junit4.source"
+         download-size="106"
+         install-size="333"
+         version="2.29.0.v20221121-0943"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.testing"
+         download-size="184"
+         install-size="416"
+         version="2.29.0.v20221121-0917"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.testing.source"
+         download-size="124"
+         install-size="383"
+         version="2.29.0.v20221121-0917"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.xbase.junit"
+         download-size="163"
+         install-size="419"
+         version="2.29.0.v20221121-0943"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.xbase.junit.source"
+         download-size="85"
+         install-size="330"
+         version="2.29.0.v20221121-0943"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.xbase.testing"
+         download-size="139"
+         install-size="368"
+         version="2.29.0.v20221121-0924"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.xbase.testing.source"
+         download-size="79"
+         install-size="300"
+         version="2.29.0.v20221121-0924"
+         unpack="false"/>
+   <plugin
+         id="org.eclipse.xtext.ui.testing"
+         download-size="115"
+         install-size="264"
+         version="2.29.0.v20221121-0943"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.ui.testing.source"
+         download-size="55"
+         install-size="190"
+         version="2.29.0.v20221121-0943"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.xbase.ui.testing"
+         download-size="22"
+         install-size="54"
+         version="2.29.0.v20221121-0943"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.xbase.ui.testing.source"
+         download-size="10"
+         install-size="44"
+         version="2.29.0.v20221121-0943"
+         unpack="false"/>
+
+</feature>

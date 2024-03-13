@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 28 10:58:07 PKT 2023
+org.jacoco.agent-0.8.7-sources.jar>central=
+org.jacoco.agent-0.8.7.jar>central=
+org.jacoco.agent-0.8.7.pom>central=

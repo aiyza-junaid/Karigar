@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<contributor name="org.eclipse.pde"/>
+<contributor name="org.eclipse.pde.ui"/>
+<contributor name="org.eclipse.platform"/>
+<contributor name="org.eclipse.ui.intro"/>
+<contributor name="com.ibm.ccl.welcome.roles"/>
+<contributor name="org.eclipse.jdt"/>
+<contributor name="com.ibm.welcome.common.rational.doc"/>
+<contributor name="org.eclipse.cvs"/>
+<contributor name="org.eclipse.epp.mpc.ui"/>
+<contributor name="org.eclipse.ui.intro.universal"/>
+<contributor name="com.ibm.rational.rsa.welcome.doc"/>
+</root>
